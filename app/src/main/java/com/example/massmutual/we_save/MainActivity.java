@@ -5,11 +5,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-new GoogleApiClient.Builder(conext)
-        .addApi(LocationServices.API)
-        .addConnecionCallbacks(this)
-        .addOnConnectionFailedListner(this)
-        .build()
 public class MainActivity extends Activity {
 
     @Override
@@ -18,37 +13,17 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        <activity andriod:theme="@style/Theme.AppCompat.Light">
-        <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-        <item android:id="@+id/action_search"
-        android:icon="@drawable/ic_action_search"
-        android:title="@string/action_search"/>
-        <item android:id="@+id/action_compose"
-        android:icon="@drawable/ic_action_compose"
-        android:title="@string/action_compose" />
-        </menu>
-        @Override
+
         public boolean onCreateOptionsMenu(Menu menu) {
             // Inflate the menu items for use in the action bar
             MenuInflater inflater = getMenuInflater();
             inflater.inflate(R.menu.main_activity_actions, menu);
             return super.onCreateOptionsMenu(menu);
         }
-        <menu xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
-        <item android:id="@+id/action_search"
-        android:icon="@drawable/ic_action_search"
-        android:title="@string/action_search"
-        yourapp:showAsAction="ifRoom"  />
-        ...
-        </menu>
                 // Inflate the menu; this adds items to the action bar if it is present.
                 getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         @Override
