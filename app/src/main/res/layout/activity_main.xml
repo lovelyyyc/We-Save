@@ -4,8 +4,32 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
-
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+    <activity andriod:theme="@style/Theme.AppCompat.Light">
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item android:id="@+id/action_search"
+            android:icon="@drawable/ic_action_search"
+            android:title="@string/action_search"/>
+        <item android:id="@+id/action_compose"
+            android:icon="@drawable/ic_action_compose"
+            android:title="@string/action_compose" />
+    </menu>
+    @Override
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+        <item android:id="@+id/action_search"
+            android:icon="@drawable/ic_action_search"
+            android:title="@string/action_search"
+            yourapp:showAsAction="ifRoom"  />
+        ...
+    </menu>
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    new GoogleApiClient.Builder(context)
+    .addApi(LocationServices.API)
+    .addConnecionCallbacks(this)
+    .addOnConnectionFailedListner(this)
+    .build()
 </RelativeLayout>
