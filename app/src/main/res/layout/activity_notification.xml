@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ExpandableListView
+       android:id="@+id/expList"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_abve="@+id/moodIntensity"
+       android:layout_gravity="center_horizontal"
+       android:layout_weight="0.02"
+       android:dividerHeight="0.05dp"
+       android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+       android:divder="#000000"
+       android:scrollbars="vertical"
+       android:layout_alignPartentTop="true"
+       android:layout_alignPartentLeft="true"
+       android:layout_alignPartentStart="true" />
+
+</LinearLayout>
