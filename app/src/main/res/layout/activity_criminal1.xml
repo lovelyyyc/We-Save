@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/R1Pic"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/R1"
+        android:src="@drawable/r1"
         android:layout_marginTop="93dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

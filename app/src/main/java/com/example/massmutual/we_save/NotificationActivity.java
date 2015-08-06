@@ -51,6 +51,21 @@ public class NotificationActivity extends Activity {
                     name = itemInCategory;
                 }
 
+                if(name.equals("Jack Barnes"))
+                {
+                    Intent intent = new Intent(NotificationActivity.this, Criminal1.class);
+                    startActivity(intent);
+                }
+                else if(name.equals("Jeffrey Lionel"))
+                {
+                    Intent intent = new Intent(NotificationActivity.this, Criminal2.class);
+                    startActivity(intent);
+                }
+                else if (name.equals("Karla Davis"))
+                {
+                    Intent intent = new Intent(NotificationActivity.this, Criminal3.class);
+                    startActivity(intent);
+                }
                 return false;
             }
         });

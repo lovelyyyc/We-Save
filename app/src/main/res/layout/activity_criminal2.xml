@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/criminal2"
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:textSize="25dp"
         android:textIsSelectable="true"
         android:layout_below="@+id/R2Pic"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/R2Pic"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/R2"
+        android:src="@drawable/r2"
         android:layout_marginTop="93dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

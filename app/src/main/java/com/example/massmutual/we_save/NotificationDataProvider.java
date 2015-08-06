@@ -14,9 +14,9 @@ public class NotificationDataProvider
     {
         HashMap<String, List<String>> notifications = new HashMap <String, List<String>>();
         List<String> alerts = new ArrayList<String>();
-        alerts.add("name1");
-        alerts.add("name2");
-        alerts.add("name3");
+        alerts.add("Jack Barnes");
+        alerts.add("Jeffrey Lionel");
+        alerts.add("Karla Davis");
         notifications.put("Notifications", alerts);
         return notifications;
     }
