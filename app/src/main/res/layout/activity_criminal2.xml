@@ -2,25 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:id="@+id/crim1"
+    android:id="@+id/crim2"
     android:textAlignment="center">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/criminal1"
+        android:text="@string/criminal2"
         android:id="@+id/textView"
         android:textSize="25dp"
         android:textIsSelectable="true"
-        android:layout_below="@+id/R1Pic"
+        android:layout_below="@+id/R2Pic"
         android:layout_alignParentLeft="true" />
 
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/R1Pic"
+        android:id="@+id/R2Pic"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/R1"
+        android:src="@drawable/R2"
         android:layout_marginTop="93dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

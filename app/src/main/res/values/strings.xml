@@ -4,4 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_test">TestActivity</string>
+    <string name="criminal1">\n Name: Jack Barnes \n Age: 56 years old \n Address: 263 Alden Road \n Crime: Pedophilia \n Height: 5'9" Weight: 200 lbs \n Race: Caucasian </string>
+    <string name="criminal2">\n Name: Jeffrey Lionel \n Age: 28 years old \n Address: 2384 State Street \n Crime: Sexual Assault \n Height: 6' \n Weight: 180 \n Race: Hispanic </string>
+    <string name="criminal3">\n Name: Karla Davis \n Age: 25 years old \n Address: 759 Bay street \n Crime: Sexual Assault, \n Kidnapping, Murder \n Height: 5' 4" \n Weight: 140 \n Race: Caucasian </string>
 </resources>
